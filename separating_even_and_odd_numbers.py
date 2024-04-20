@@ -13,3 +13,4 @@ with open("odd.txt", "w") as odd_file:
     for num in odd_numbers:
         odd_file.write(str(num) + "\n")
 # 5. Display completion message
+print("Separation of even and odd numbers completed. Check 'even.txt' and 'odd.txt'.")
