@@ -5,5 +5,6 @@ with open("numbers.txt", "r") as file:
 even_numbers = [num for num in numbers if num % 2 == 0]
 odd_numbers = [num for num in numbers if num % 2 != 0]
 # 3. Write even numbers to "even.txt"
+with open("even.txt", "w") as even_file:
 # 4. Write odd numbers to "odd.txt"
 # 5. Display completion message
