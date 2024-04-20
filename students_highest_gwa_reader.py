@@ -7,4 +7,5 @@ with open("students_gwa.txt", "r") as file:
         name, gwa_str = line.strip().split(',')
         gwa = float(gwa_str)
         if gwa < highest_gwa:
+            highest_gwa = gwa
 # 3. Display the student who achieved the highest GWA
