@@ -10,4 +10,6 @@ with open("even.txt", "w") as even_file:
         even_file.write(str(num) + "\n")
 # 4. Write odd numbers to "odd.txt"
 with open("odd.txt", "w") as odd_file:
+    for num in odd_numbers:
+        odd_file.write(str(num) + "\n")
 # 5. Display completion message
