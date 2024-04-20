@@ -12,6 +12,6 @@ with open("students_gwa.txt", "r") as file:
         if gwa < highest_gwa:
             highest_gwa = gwa
             top_student = name
-            
+
 # 4. Display the student who achieved the highest GWA
 print(f"The student '{top_student}' achieved the highest grading with a GWA of '{highest_gwa}'")
