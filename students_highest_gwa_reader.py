@@ -8,9 +8,10 @@ with open("students_gwa.txt", "r") as file:
         name, gwa_str = line.strip().split(',')
         gwa = float(gwa_str)
 
+# 3. Check if this student's GWA is higher than the current highest GWA found
         if gwa < highest_gwa:
             highest_gwa = gwa
             top_student = name
 
-# 3. Display the student who achieved the highest GWA
+# 4. Display the student who achieved the highest GWA
 print(f"The student '{top_student}' achieved the highest grading with a GWA of '{highest_gwa}'")
