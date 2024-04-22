@@ -4,5 +4,6 @@ lines = []
 while True:
     line = input("Enter line: ")
     lines.append(line)
+    choice = input("Are there more lines? (y/n): ")
 # 3. Save lines to 'mylife.txt'
 # 4. Display a completion message
