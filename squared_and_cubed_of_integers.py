@@ -6,6 +6,8 @@ output_file_odd_name = 'triple.txt'
 with open(input_file_name, 'r') as infile:
     numbers = [int(line.strip()) for line in infile.readlines()]
 # 3. Initialize lists to store even and odd numbers
+even_numbers = []
+odd_numbers = []
 # 4. Classify numbers as even or odd
 # 5. Calculate squares of even numbers and cubes of odd numbers
 # 6. Write squared evens to output_file_even (double.txt)
