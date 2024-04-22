@@ -26,3 +26,4 @@ with open(output_file_odd_name, 'w') as outfile_odd:
     for num in cubed_odds:
         outfile_odd.write(f"{num}\n")
 # 8. Print success message
+print(f"Files '{output_file_even_name}' and '{output_file_odd_name}' have been created successfully.")
