@@ -18,5 +18,7 @@ for num in numbers:
 squared_evens = [num ** 2 for num in even_numbers]
 cubed_odds = [num ** 3 for num in odd_numbers]
 # 6. Write squared evens to output_file_even (double.txt)
+with open(output_file_even_name, 'w') as outfile_even:
+    for num in squared_evens:
 # 7. Write cubed odds to output_file_odd (triple.txt)
 # 8. Print success message
