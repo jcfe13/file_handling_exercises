@@ -1,4 +1,7 @@
 # 1. Specify input and output file names
+input_file_name = 'integers.txt'
+output_file_even_name = 'double.txt'
+output_file_odd_name = 'triple.txt'
 # 2. Open the input file for reading
 # 3. Initialize lists to store even and odd numbers
 # 4. Classify numbers as even or odd
