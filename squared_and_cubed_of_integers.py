@@ -12,6 +12,8 @@ odd_numbers = []
 for num in numbers:
     if num % 2 == 0:
         even_numbers.append(num)
+    else:
+        odd_numbers.append(num)
 # 5. Calculate squares of even numbers and cubes of odd numbers
 # 6. Write squared evens to output_file_even (double.txt)
 # 7. Write cubed odds to output_file_odd (triple.txt)
