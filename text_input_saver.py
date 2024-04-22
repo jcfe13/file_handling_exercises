@@ -12,3 +12,4 @@ with open("mylife.txt", "w") as file:
     for line in lines:
         file.write(line + "\n")
 # 4. Display a completion message
+print("Lines have been written to 'mylife.txt'.")
