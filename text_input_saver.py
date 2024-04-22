@@ -8,4 +8,5 @@ while True:
     if choice.lower() != 'y':
         break
 # 3. Save lines to 'mylife.txt'
+with open("mylife.txt", "w") as file:
 # 4. Display a completion message
