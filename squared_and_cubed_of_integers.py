@@ -24,4 +24,5 @@ with open(output_file_even_name, 'w') as outfile_even:
 # 7. Write cubed odds to output_file_odd (triple.txt)
 with open(output_file_odd_name, 'w') as outfile_odd:
     for num in cubed_odds:
+        outfile_odd.write(f"{num}\n")
 # 8. Print success message
