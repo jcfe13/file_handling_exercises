@@ -9,6 +9,7 @@ with open(input_file_name, 'r') as infile:
 even_numbers = []
 odd_numbers = []
 # 4. Classify numbers as even or odd
+for num in numbers:
 # 5. Calculate squares of even numbers and cubes of odd numbers
 # 6. Write squared evens to output_file_even (double.txt)
 # 7. Write cubed odds to output_file_odd (triple.txt)
