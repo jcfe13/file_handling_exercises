@@ -17,3 +17,4 @@ with open("mylife.txt", "w") as file:
 
 # 4. Display a completion message
 print("Lines have been written to 'mylife.txt'.")
+
